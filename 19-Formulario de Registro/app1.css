@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto';
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+}
+
+.registro section{
+    padding: 15px 4px;
+    border: 10px dotted #ddd;
+}
+
+.registro section form{
+    padding: 3px 5px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+h3.title{
+    padding: 2px;
+}
+
+h3.subtitle{
+    padding: 1px 1px 1px 8px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+form .info-fields{
+    color: blue;
+    font-size: 12px;
+    padding: 3px 0;
+    display: inline-block;
+}
+
+.registro form .field{
+    margin: 4px 0;
+}
+
+.registro form .field input,
+.registro form .field select{
+    width: 250px;
+}
+
+.registro form .field label{
+    width: 100px;
+    display: inline-block;
+}
+
+form .btn{
+    padding: 2px 3px;
+    outline: 0;
+	
+}
+
+form .btn.submit{
+    background-color: #5FBA7D;
+    border: 1px solid #14780E;
+}
+
+form .btn.clear{
+    background-color: #ddd;
+    border: 1px solid #222;
+}
+
+.student{
+    width: 25%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    float: left;
+    margin: 5px;
+    padding: 8px 4px;
+}
+
+.student:nth-child(3n+1){
+    clear: both;
+}
+
+.student .wrapper label{
+    font-weight: 300;
+    display: block;
+    padding: 4px;
+}
+
+.student .wrapper label + label{
+    display: none;
+}
+
+.student .wrapper:hover label{
+    display: block;
+}
+
+.student{
+    transition: all .2s ease-in-out;
+}
